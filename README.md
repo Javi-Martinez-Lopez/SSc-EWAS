@@ -90,7 +90,7 @@ deco1 <- decoRDA(data=M_DECO, classes=Data_DECO, iterations = 100, r=30, q.val =
 table(is.infinite(c(deco1$data, deco1$results)))
 na.omit(deco1)
 
-deco2 <-  decoNSCA(sub = deco1, v=50, method=NULL, bpparam = bpparam, k.control=NULL, k.case = NULL, samp.perc = 0.05, rep.thr = 1) #Da un fallo Biocparallel que tendré que solucionar en un futuro.
+deco2 <-  decoNSCA(sub = deco1, v=50, method=NULL, bpparam = bpparam, k.control=NULL, k.case = NULL, samp.perc = 0.05, rep.thr = 1) 
 
 hMatrixSSc <- NSCAcluster(deco2)$Case$NSCA$h
 hMatrixCTRL <- NSCAcluster(deco2)$Control$NSCA$h
