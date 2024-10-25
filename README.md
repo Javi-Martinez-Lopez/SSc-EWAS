@@ -612,4 +612,4 @@ SIG.CORRELATIONS.GEN <- CORRELATIONS.GEN[which(CORRELATIONS.GEN$FDR<0.05),]
 
 To cite this paper:
 
-> Martinez-Lopez, J., Estupiñan-Moreno, E., Ortiz-Fernandez, L. et al., A genome-wide DNA methylation study integrated with gene expression data reveals novel insights in the epigenetic landscape of Systemic Sclerosis, _JOURNAL TBD_, 2024, DOI:
+> Martinez-Lopez, J., Ortiz-Fernandez, L., Estupiñan-Moreno, E., et al.; Genome-wide integrated DNA methylome and transcriptome analysis reveals a strong dysregulated myeloid component in the epigenetic landscape of Systemic Sclerosis, Arthritis&Rheumatology, 2024, DOI:10.1002/art.43044
